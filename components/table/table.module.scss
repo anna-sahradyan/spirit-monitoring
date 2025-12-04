@@ -1,0 +1,93 @@
+
+.tableContainer {
+  margin-bottom: 20px; /* Отступ снизу */
+  background-color: var(--sblack-01);
+
+}
+
+/* Округление углов на строках таблицы */
+.tableContainer tr {
+  border-radius: 8px !important;
+  overflow: hidden;
+
+}
+
+.actionBtn {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.title {
+  color: white;
+  font-size: 60px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+
+.tableContainer td {
+  border-bottom: 2px solid var(--color) !important;
+  color: var(--color);
+}
+
+/* Статусные круги */
+.statusCircle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
+  text-transform: capitalize;
+}
+
+.headRow th {
+  color: var(--color);
+  margin-bottom: 20px;
+}
+
+/* Стиль для Active статуса */
+.statusActive {
+  background-color: var(--color-bg-btnActive);
+}
+
+.statusCircle {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2);
+}
+
+.statusActive {
+  background-color: var(--color-bg-btnActive);
+}
+
+.statusCaptured {
+  background-color: var(--color-text-b);
+}
+
+.statusCaught {
+  background-color: var(--color-text-y);
+}
+
+.statusEscaped {
+  background-color: var(--color-text-red);
+}
+
+.statusInProgress {
+  background-color: var(--color-text-r);
+}
+
+.statusDetected {
+  background-color: gray;
+}
+
+.statusConfirmed {
+  background-color: purple;
+}
+
+.textColor {
+  text-transform: capitalize;
+  font-size: 16px !important;
+
+}

@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+:root {
+    --sblack-01: #25282D;
+    --sblack-02: #2A2D33;
+    --sblack-03: #3D425A;
+    --black-04: #202020;
+    --sblack-05: #282B30;
+    --color: #A5A8AA;
+    --color-text: #FEFEFE;
+    --color-g: #20C079;
+    --color-bg-btn: #3D3F46;
+    --color-bg-btnActive: #00986A;
+    --color-text-y: #FDB056;
+    --color-text-r: #ff9800;
+    --color-text-red: #8D021F;
+    --color-text-g: #4CAF50;
+    --color-text-b: #2196F3;
+}
+
+html {
+    box-sizing: border-box;
+    min-height: 100dvh;
+    height: 100dvh;
+    scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    background-color: var(--black-04);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    width: 100%;
+    box-sizing: inherit;
+    min-height: 100vh;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0;
+    color: var(--color-text);
+    overflow-x: hidden;
+
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 20px;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 95%;
+    background-color: var(--sblack-05);
+    min-height: 80px;
+    border-radius: 1rem;
+}
+
+.container {
+    width: 100%;
+    max-width: 95%;
+    background-color: var(--sblack-05);
+    min-height: 500px;
+    border-radius: 1rem;
+    padding: 20px;
+    margin: 5rem auto;
+
+}
+
+
+main {
+    width: 100%;
+
+}
